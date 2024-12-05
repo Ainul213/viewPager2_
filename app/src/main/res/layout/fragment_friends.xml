@@ -7,12 +7,10 @@
     android:orientation="vertical"
     tools:context=".FriendsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Beliau Sepuh Yang Jahat"
-        android:textSize="24sp"/>
-
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
 </LinearLayout>
